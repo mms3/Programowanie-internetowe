@@ -1,0 +1,8 @@
+Options ExecCGI
+AuthType Basic
+AuthName "Katalog zabezpieczony haslem."
+AuthUserFile /home/stud/strulakm/WWW/projekt1/.admins
+<Limit GET POST>
+require valid-user
+</Limit>
+

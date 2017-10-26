@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+#choosenumber{
+  text-align: center;
+  padding: 10px;
+}
+
+input[type="number"]{
+  border-radius: 2px;
+  border: 1px solid gray;
+  font-size: 16px;
+}
+
+.mybutton{
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: #F0F0F0;
+}
+
+.mybutton:hover{
+  background-color: #A3A3A3;
+}
+
+.hidden{
+  display: none;
+}
+
+table{
+  border-spacing: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.tableheader{
+  font-weight: bold;
+}
+
+article{
+  overflow: auto;
+}
+
+label{
+  display: block;
+  float: left;
+  width: 150px;
+}
+
+#form{
+  margin-left: 240px;
+  padding-bottom: 20px;
+}
+
+.normal{
+ font-weight: normal;
+}
+
+#italic{
+  font-weight: normal;
+  font-style: italic;
+}
+
+#note{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#age:hover{
+  cursor: not-allowed;
+}
+
+#charsLeft{
+  width: 25px;
+}

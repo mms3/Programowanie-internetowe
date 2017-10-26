@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Programowanie internetowe | Magda Strulak</title>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Magda Strulak">
+    <meta name="Generator" content="JTHTML 8.5">
+    <meta name="Description" content="Strona z projektami na zajęcia z programowania internetowego">
+    <meta name="Keywords" content="politechnika,warszawska,pw,informatyka,programowanie,internetowe">
+    <meta name="Robots" content="index">
+    <link rel="stylesheet" type="text/css" href="css/stylemain.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="home">
+        <a href="index.html">
+          <img src="images/home.png" width="60" height="60" alt="Strona główna" title="Strona główna">
+        </a>
+      </div>
+      <h1>PROGRAMOWANIE INTERNETOWE - cd.</h1> 
+    </header>
+
+    <article>
+      <h2>Przykładowe elementy HTML:</h2>
+      Tabela:
+      <table id="tableexample">
+      <tr><td>komórka1</td><td>komórka2</td></tr>
+      <tr><td>komórka3</td><td>komórka4</td></tr>
+      </table> <br><br>
+      IFRAME:<br>
+      <iframe name="myframe" src="http://iem.pw.edu.pl/~strulakm/images/advertise.png" width="100" height="100"></iframe>
+      <br><br><br><br>
+      Formularze:
+      <FORM ACTION="mailto:strulakm@ee.pw.edu.pl" METHOD="post" ENCTYPE="text/plain">
+        <br> Podaj swoje imię:
+        <INPUT TYPE="text" NAME="imię">
+
+        <br><br> Jakie są Twoje zaintersowania?<br>
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Muzyka" />Muzyka
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Sport" />Sport
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Literatura" />Literatura
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Polityka" />Polityka
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Kuchnia" />Kuchnia
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Natura" />Natura
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Motoryzacja" />Motoryzacja
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Technologia" />Technologia
+        <INPUT TYPE="checkbox" NAME="interest" VALUE="Inne" />Inne
+            
+        <br><br> Jesteś na mojej stronie po raz pierwszy?
+        <INPUT TYPE="radio" NAME="firsttime" VALUE="tak">Tak
+        <INPUT TYPE="radio" NAME="firsttime" VALUE="nie">Nie
+
+        <br><br> Z której przeglądarki korzystasz?
+        <SELECT NAME="webbrowser">
+          <OPTION>Inna
+          <OPTION>Google Chrome
+          <OPTION>Mozilla Firefox
+          <OPTION>Opera
+          <OPTION>Safari
+          <OPTION>Internet Explorer
+        </SELECT>
+
+        <br><br>Wyślij mi jakąś wiadomość<br>
+        <TEXTAREA NAME="nazwa" COLS="40" ROWS="5">...</TEXTAREA>
+
+        <br><br>Wyślij mi jakiś plik 
+        <INPUT TYPE="file" NAME="nazwa">
+           
+        <br><br><INPUT TYPE="submit" VALUE="Wyślij" disabled="disabled"> <INPUT TYPE="reset" VALUE="Anuluj">
+      </FORM>
+      
+
+    </article>
+
+    <footer>
+      <div id="name">
+        <img src="images/author.png" width="35" height="35" alt="Autor" title="O autorze">
+        <p>Magda Strulak, 262781</p>
+      </div>
+
+      <div id="validators">
+        <a href="http://validator.w3.org/check?uri=referer">
+          <img src="http://dev.bowdenweb.com/a/i/dev/webcomm/badge-w3c-valid-html5.png" height="32" alt="Valid HTML5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Poprawny CSS!"></a>
+      </div>
+
+      <div id="sources">
+        <a class="myButton" href="view-source:http://iem.pw.edu.pl/~strulakm/more.html">Źródło HTML</a>
+        <a class="myButton" href="view-source:http://iem.pw.edu.pl/~strulakm/css/stylemain.css">Źródło CSS</a>
+      </div>
+    </footer>
+  </body>
+  
+</html>

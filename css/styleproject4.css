@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.fileupload, .back, #form{
+  text-align: center;
+}
+
+.errormessage{
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  color: red;
+}
+
+.message, #response{
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+  color: #008000;
+}
+
+
+#filelist{
+  text-align: center;
+  margin: 0px auto;
+  border-spacing: 15px 5px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+#tableheader{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.lp, .download:hover{
+  font-weight: bold;
+}
+
+.download{
+  text-decoration: none;
+}
+
+article{
+  overflow: auto;
+}
+
+.part{
+  text-align: center;
+  font-weight: normal;
+}
+
+#animatedobject{
+  background-color: grey;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px;
+  text-align: center;
+  width: 70px;
+  position: relative;
+}
+#field, #form{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#choose a{
+  text-decoration: none;
+  margin: 15px;
+}
+
+#choose a:hover{
+  text-decoration: underline;
+}
+
+.listel{
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.listel:hover{
+  font-weight: bold;
+}
+
+/*.oop {font-size: 13px;}
+.ajax {margin-top: 30px;}
+.ajax a {text-decoration: none; color: #000; transition: 0.45s all ease; padding: 10px; margin: 20px;}
+.ajax a:hover {background: #000; color: #fff;}
+#response {color: darkgreen;margin-top: 20px;}*/

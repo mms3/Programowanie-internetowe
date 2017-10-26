@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+h1{
+  text-align: center;
+  font-size: 24pt;
+}
+
+section, .xsection{
+  padding: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+section:after, .xsection:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+#personal{
+  width: 500px;
+  float: left;
+}
+
+h2{
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.sectionbody{
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+.sectionbody:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.sectionleft{
+  float: left;
+  width: 200px;
+  font-weight: bold;
+}
+
+#photo{
+  float: right;
+}
+
+ul{
+  list-style-position: inside;
+  margin-top: 0px;
+}
+
+#adnotation {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11pt;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#theader {
+  border-spacing: 70px 0px;
+}
+
+#tfooter{
+  width: 800px;
+  font-size: 16pt;
+}
+
+#tvalidators{
+  text-align: right;
+}
+
+#tcv{
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#tperson{
+  text-align: right;
+}
+
+.tsectionright{
+  font-weight: normal;
+  font-size: 12pt;
+  padding-bottom: 25px;
+}
+
+.tsectionleft{
+  font-weight: bold;
+  font-size: 12pt;
+  padding-bottom: 25px;
+}
+
+.tcategory{
+  border-top: 1px solid darkgrey;
+}
+
+#tcvheader{
+  border-bottom: 1px solid darkgrey;
+}
+
+#tadnotation {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11pt;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid darkgrey;
+}
+
+#tsource {
+  font-size: 12pt;
+}

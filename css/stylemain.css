@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+  height: 100%;
+  background-color: grey;
+  font-family: "arial narrow", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+header, article, #xheader, #xarticle{
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px;
+  padding: 6px;
+  margin: 20px auto 15px auto;
+  font-weight: bold;
+}
+
+header, #xheader{
+  background-color: #FEFDC5;
+}
+
+article, #xarticle{
+  background-color: #F0F0F0;
+  position: relative;
+}
+
+.element, .project {
+  height: 60px;
+  width: 650px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px;
+}
+
+.element {
+  margin: 30px auto 30px 75px;
+  background-color: white;
+}
+
+.project {
+  background-color: #F0F0F0;
+  z-index: 4;
+  font-size: large;
+  text-align: center;
+  transition: all 0.5s;
+  display: table;
+  position: absolute;
+}
+
+.element:hover > .project{
+  width: 200px;
+  transition: all 0.5s;
+}
+
+.title{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 20pt;
+}
+
+.task {
+  height: 60px;
+  width: 450px;
+  border-radius: 10px;
+  z-index: 2;
+  float: right;
+}
+
+.link{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  z-index: 2;
+  float: left;
+  margin: 5px 0 0 10px;
+  text-align: center;
+  color: black;
+}
+
+.link:hover {
+  background-color: #FEFDC5;
+  border: solid #808080;
+  margin: 2px 0 0 10px;
+}
+
+#more {
+  border-radius: 10px;
+}
+#more:hover {
+  height: 20px;
+  background-color: red;
+  transition: all 3s;
+}
+
+footer, #footer{
+  margin-top: 15px;
+  width: 800px;
+  margin: 15px auto 20px auto;
+}
+
+footer:after, #footer:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+#name{
+  float: left;
+  font-size: 14pt;
+  display: table;
+}
+
+p{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#sources {
+  width: 350px;
+  height: 24px;
+  float: right;
+  padding: 7px;
+  font-size: 12pt;
+}
+
+#validators {
+  float: right;
+}
+
+#tableexample {
+  border: 3px double black;
+  background-color: white;
+}
+
+#tableexample td {
+   border: 1px solid black;
+}
+
+.home{
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+#projectname, #tprojectname{
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  padding: 15px;
+}
